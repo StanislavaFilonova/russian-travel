@@ -1,0 +1,33 @@
+.intro {
+    margin: 0;
+    margin-left: 16px;
+    margin-right: 16px;
+}
+
+@media (min-width: 425px) {
+    .intro {
+        margin-left: 18px;
+        margin-right: 18px;
+    }
+}
+
+@media (min-width: 768px) {
+    .intro {
+        margin-left: 24px;
+        margin-right: 24px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .intro {
+        margin-left: 48px;
+        margin-right: 286px;
+    }
+}
+
+@media (min-width: 1280px) {
+    .intro {
+        margin-left: 148px;
+        margin-right: 442px;
+    }
+}

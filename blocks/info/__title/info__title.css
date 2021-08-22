@@ -1,0 +1,37 @@
+.info__title {
+    margin: 0;
+    font-size: 32px;
+    font-style: normal;
+    line-height: 35px;
+    margin: 64px 0px 40px;
+    white-space: pre-line;
+}
+
+@media (min-width: 425px) {
+    .info__title {
+        font-size: 36px;
+        line-height: 38px;
+        margin:  70px 0 40px;
+        white-space: normal;
+    }
+}
+
+@media (min-width: 768px) {
+    .info__title {
+        font-size: 54px;
+        line-height: 58px;
+        margin:  88px 0 40px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .info__title {
+        margin:  92px 0 40px;
+    }
+}
+
+@media (min-width: 1280px) {
+    .info__title {
+        margin:  92px 0 40px;
+    }
+}
