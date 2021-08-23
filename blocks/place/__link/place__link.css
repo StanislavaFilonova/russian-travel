@@ -3,6 +3,8 @@
     font-size: 18px;
     line-height: 22px;
     font-weight: normal;
+    font-family: 'Inter';
+    font-style: normal;
     text-decoration: underline;
-    margin: 0 16px 32px;
+    margin: 12px 16px 32px;
 }
