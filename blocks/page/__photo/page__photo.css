@@ -1,0 +1,12 @@
+.page__photo {
+    margin: auto;
+    margin-top: 64px;
+    width: 90%;
+}
+
+@media (min-width: 768px) {
+    .page__photo {
+        margin: 88px 24px 0;
+        width: auto;
+    }
+}

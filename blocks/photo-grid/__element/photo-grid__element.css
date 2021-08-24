@@ -1,9 +1,21 @@
 .photo-grid__element { 
-    width: 288px;
-    height: 216px;
+    max-width: 288px;
+    max-height: 216px;
     margin-bottom: 12px;
 }
 
 .photo-grid__element:last-child { 
     margin-bottom: 64px;
+}
+
+@media (min-width: 768px) {
+    .photo-grid__element {
+        max-width: 352px;
+        max-height: 264px;
+        margin: 0;
+    }
+
+    .photo-grid__element:last-child {
+        margin-bottom: 0;
+    }
 }

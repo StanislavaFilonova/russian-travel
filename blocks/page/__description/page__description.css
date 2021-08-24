@@ -1,0 +1,11 @@
+.page__description {
+    margin: auto;
+    margin-top: 48px;
+    width: 100%;
+}
+
+@media (min-width: 1280px) {
+    .description {
+        margin-top: 56px;
+    }  
+}

@@ -7,3 +7,9 @@
     background-color: #2A2C2F;
     color: white;
 }
+
+@media (min-width: 425px) {
+    .page {
+        min-width: 425px;
+    }
+}

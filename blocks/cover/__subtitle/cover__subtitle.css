@@ -1,5 +1,5 @@
 .cover__subtitle {
-    white-space: pre-line;
+    min-width: 288px;
     font-weight: normal;
     font-size: 14px;
     line-height: 16px;
