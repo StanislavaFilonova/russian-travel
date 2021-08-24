@@ -13,3 +13,11 @@
         margin: 0 18px 32px;
     }
 }
+
+@media (min-width: 768px) {
+    .place__link {
+        margin: 0;
+        margin-bottom: 48px;
+        grid-area: place__link;
+    }
+}

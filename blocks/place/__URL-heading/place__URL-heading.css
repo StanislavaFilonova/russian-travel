@@ -9,3 +9,15 @@
     color: #AAAAAA;
     width: 90%;
 }
+
+@media (min-width: 768px) {
+   .place__URL-heading {
+    margin: 0;
+    width: auto;
+    margin-bottom: 12px;
+    grid-area: place__URL-heading;
+   }
+   .place__URL-heading:first-of-type{
+    margin-top: 46px;
+}
+}
