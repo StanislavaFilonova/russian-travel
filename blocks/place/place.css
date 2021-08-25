@@ -15,13 +15,24 @@
         grid-auto-rows: minmax(12px, auto);
         column-gap: 28px;
         grid-template-areas: 
-        "place__title place__URL-heading"
-        "place__title place__link"
+        "place__title place__web"
         "place__image place__paragraph"
         "place__image place__paragraph";
     }
+}
 
-    .place:first-child {
-        margin-top: 88px;
+@media (min-width: 1024px) {
+    .place {
+        margin: 0;
+        margin-top: 80px;
+        display: grid;
+        grid-template-columns: 440px 456px;
+        grid-auto-rows: minmax(12px, auto);
+        column-gap: 32px;
+        row-gap: 48px;
+        grid-template-areas: 
+        "place__title place__web"
+        "place__image place__paragraph"
+        "place__image place__paragraph";
     }
 }

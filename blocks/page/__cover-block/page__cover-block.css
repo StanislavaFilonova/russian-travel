@@ -3,3 +3,10 @@
     min-height: 200px;
     width: 100%;
 }
+
+@media (min-width: 768px) {
+   .page__cover-block {
+    margin-top: 90px;
+    max-height: 480px;
+   }
+}

@@ -17,3 +17,10 @@
         width: auto;
     }
 }
+
+@media (min-width: 1024px) {
+    .page__intro {
+        margin-left: 0;
+        margin-right: 0;
+    }
+}

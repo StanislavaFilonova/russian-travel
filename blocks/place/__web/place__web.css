@@ -1,0 +1,7 @@
+@media (min-width: 1024px) {
+    .place__web {
+        grid-area: place__web;
+        align-self: end;
+        max-width: 100%;
+    }
+}

@@ -10,3 +10,10 @@
         width: auto;
     }
 }
+
+@media (min-width: 1024px) {
+    .page__photo {
+        margin: 92px 48px 0;
+        width: auto;
+    }
+}

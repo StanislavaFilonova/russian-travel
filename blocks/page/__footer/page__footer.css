@@ -3,3 +3,10 @@
     margin-top: 64px;
     margin-bottom: 0;
 }
+
+@media (min-width:  768px) {
+    .page__footer {
+        margin: 88px 24px 0;
+        padding: 0;
+    }
+}

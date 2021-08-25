@@ -24,6 +24,7 @@
 @media (min-width: 1024px) {
     .lead__caption {
         margin-left: 48px;
+        min-width: 158px;
     }
 }
 

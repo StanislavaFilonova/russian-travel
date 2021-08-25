@@ -24,3 +24,9 @@
 .cover__link:hover::after {
     opacity: .8;
 }
+
+@media (min-width: 768px) {
+    .cover__link {
+        padding: 115px 104px;
+    }
+}

@@ -12,3 +12,13 @@
     opacity: 0.5;
     color:tomato;
   }
+
+  @media (min-width: 768px) {
+    .footer__column-link {
+      font-size: 16px;
+      line-height: 18px;
+      align-self: flex-start;
+      padding: 0 18px 0 0;
+    }
+  }
+  /*Не знаю, как убрать паддинг от последнего элемента, пробовала и :last-child/:nth-child/:last-of-type, паддинги удаляются у всех элементов*/

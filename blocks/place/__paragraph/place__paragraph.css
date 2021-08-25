@@ -16,7 +16,7 @@
         width: auto;
     }
 
-    .place__paragraph:nth-of-type(2n) {
+    .place__paragraph:last-of-type {
         margin-bottom: 0;
     }
 }

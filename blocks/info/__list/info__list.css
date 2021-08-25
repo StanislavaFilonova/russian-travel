@@ -5,3 +5,9 @@
     font-size: 12px;
     line-height: 1.5;
 }
+
+@media (min-width: 1024px) {
+    .info__list {
+        max-width: 690px;
+    }
+}

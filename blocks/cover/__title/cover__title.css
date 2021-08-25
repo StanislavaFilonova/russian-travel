@@ -7,3 +7,10 @@
     margin: 0;
     min-width: 288px;
 }
+
+@media (min-width: 768px) {
+    .cover__title {
+        font-size: 72px;
+        line-height: 76px;
+    }
+}

@@ -11,3 +11,12 @@
         margin-top: 88px;
     }
 }
+
+@media (min-width: 1024px) {
+    .page__places {
+        margin-left: 48px;
+        width: auto;
+        margin-top: 92px;
+        margin-right: 48px;
+    }
+}

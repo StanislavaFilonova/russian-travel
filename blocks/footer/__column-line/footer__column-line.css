@@ -5,3 +5,10 @@
 .footer__column-line:last-child {
     margin-bottom: 0;
 }
+
+@media (min-width: 768px) {
+    .footer__column-line {
+      display: inline;
+      margin: 0;
+  }
+  }

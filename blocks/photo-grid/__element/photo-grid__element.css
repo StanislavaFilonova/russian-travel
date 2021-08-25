@@ -19,3 +19,10 @@
         margin-bottom: 0;
     }
 }
+
+@media (min-width: 1024px) {
+    .photo-grid__element {
+        width: 100%;
+        height: 100%;
+    }
+}
