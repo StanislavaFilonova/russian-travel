@@ -1,6 +1,6 @@
 .page__cover-block {
     margin-top: 66px;
-    min-height: 200px;
+    max-height: 200px;
     width: 100%;
 }
 
@@ -10,3 +10,18 @@
     max-height: 480px;
    }
 }
+
+@media (min-width: 1024px) {
+    .page__cover-block {
+     margin-top: 92px;
+     max-height: 640px;
+    }
+ }
+
+ @media (min-width: 1280px) {
+    .page__cover-block {
+     max-height: 740px;
+     margin-left: 48px;
+     margin-right: 48px;
+    }
+ }

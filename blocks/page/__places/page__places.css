@@ -20,3 +20,10 @@
         margin-right: 48px;
     }
 }
+
+@media (min-width: 1280px) {
+    .page__places {
+        margin-left: 148px;
+        margin-right: 148px;
+    }
+}

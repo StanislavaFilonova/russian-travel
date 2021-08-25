@@ -7,7 +7,7 @@
     width: 90%;
 }
 
-.place__paragraph:nth-of-type(2n) {
+.place__paragraph:last-of-type {
     margin-bottom: 0;
 }
 
@@ -15,8 +15,13 @@
     .place__paragraph {
         width: auto;
     }
+}
 
-    .place__paragraph:last-of-type {
-        margin-bottom: 0;
+@media (min-width: 1024px) {
+    .place__paragraph {
+        padding-bottom: 26px;
+        margin: 0;
+        font-size: 18px;
+        line-height: 29px;
     }
 }

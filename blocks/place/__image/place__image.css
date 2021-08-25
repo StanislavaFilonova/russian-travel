@@ -1,20 +1,11 @@
 .place__image {
-    max-height: 320px;
+    width: 100%;
     margin: 32px 0 32px;
-}
-
-@media (min-width: 425px) {
-    .place__image {
-        max-height: 425px;
-        margin: 32px 0 32px;
-    }
 }
 
 @media (min-width: 768px) {
     .place__image {
         margin: 0;
-        max-height: 340px;
-        max-width: 340px;
         grid-area: place__image;
     }
 }

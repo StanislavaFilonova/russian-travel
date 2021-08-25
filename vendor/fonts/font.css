@@ -1,6 +1,6 @@
 /*inter-regular - latin  */
 @font-face {
-    font-family: 'Inter';
+    font-family: "Inter";
     font-style: normal;
     font-weight: 400;
     src: url('../fonts/Inter-Regular.woff2') format("woff2"),
@@ -9,7 +9,7 @@
 
 /*inter-900 - latin*/
 @font-face {
-    font-family: 'Inter';
+    font-family: "Inter";
     font-style:  normal;
     font-weight: 900;
     src: url('../fonts/Inter-Black.woff2') format("woff2"),
