@@ -18,6 +18,6 @@
 
 ## Ссылка на GitHub Pages
 
-<https://stanislavafilonova.github.io/third-project/>
+<https://stanislavafilonova.github.io/russian-travel/>
 
 Автор: Филонова Станислава
