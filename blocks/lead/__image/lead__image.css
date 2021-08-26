@@ -1,5 +1,5 @@
 .lead__image {
-    min-height: 200px;
+    max-height: 200px;
     margin: 40px 0 8px;
 }
 
@@ -13,7 +13,7 @@
 
 @media (min-width: 768px) {
     .lead__image {
-        min-height: 480px;
+        max-height: 480px;
         margin-top: 56px;
     }
 }
@@ -21,7 +21,7 @@
 @media (min-width: 1024px) {
     .lead__image {
         width: 928px;
-        min-height: 580px;
+        max-height: 580px;
         margin: 56px 48px 8px;
     }
 }
@@ -29,7 +29,7 @@
 @media (min-width: 1280px) {
     .lead__image {
         width: 984px;
-        height: 615px;
+        max-height: 615px;
         margin: 64px 148px 8px;
     }
 }

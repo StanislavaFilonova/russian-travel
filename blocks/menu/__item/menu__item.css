@@ -4,7 +4,14 @@
     font-size: 18px;
     line-height: 20px;
     padding-top: 30px;
-}
+    opacity: 1;
+    transition: 1s ease-in;
+  }
+
+.menu__item:hover {
+    opacity: 0.5;
+    color:tomato;
+  }
 
 .menu__item:last-child {
     text-decoration: none;
