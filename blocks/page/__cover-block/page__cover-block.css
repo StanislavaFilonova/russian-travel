@@ -1,7 +1,6 @@
 .page__cover-block {
     margin-top: 66px;
     max-height: 200px;
-    width: 100%;
 }
 
 @media (min-width: 768px) {
