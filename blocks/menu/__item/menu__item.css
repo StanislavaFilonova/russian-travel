@@ -1,36 +1,8 @@
 .menu__item {
-    text-decoration: underline;
-    color:white;
-    font-size: 18px;
-    line-height: 20px;
-    padding-top: 30px;
-    opacity: 1;
-    transition: 1s ease-in;
-  }
-
-.menu__item:hover {
-    opacity: 0.5;
-    color:tomato;
-  }
-
-.menu__item:last-child {
-    text-decoration: none;
-    padding-left: 18px;
+    padding-right: 18px;
+    margin: 0;
 }
 
-@media (min-width: 425px) {
-    .menu__item {
-        font-size: 20px;
-        line-height: 24px;
-        padding-top: 36px;
-    }  
+.menu__item:last-of-type {
+    padding-right: 0;
 }
-
-@media (min-width: 768px) {
-    .menu__item {
-        font-size: 24px;
-        line-height: 28px;
-        padding-top: 46px;
-    }  
-}
-

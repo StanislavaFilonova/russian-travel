@@ -1,4 +1,4 @@
-.place__URL-heading {
+.place__url-heading {
     margin: auto;
     margin-top: 32px;
     padding-bottom: 12px;
@@ -8,11 +8,13 @@
     font-weight: normal;
     color: #AAAAAA;
     width: 90%;
+    letter-spacing: 2px;
+    text-transform: uppercase;
 }
 
 @media (min-width: 768px) {
-   .place__URL-heading {
-    margin: 0;
-    width: auto;
+   .place__url-heading {
+        margin: 0;
+        width: auto;
    }
 }

@@ -1,6 +1,21 @@
 .lead {
-display: flex;
-flex-direction: column;
-justify-content: center;
-text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    max-width: 984px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+@media (min-width:1024px) {
+    .lead {
+        max-width: 928px;
+    }
+}
+
+@media (min-width: 1280px) {
+    .lead {
+        max-width: 984px;
+    }
 }

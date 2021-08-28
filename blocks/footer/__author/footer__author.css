@@ -9,8 +9,6 @@
 
 @media (min-width: 768px) {
     .footer__author {
-        padding: 0;
-        padding-bottom: 24px;
         min-width: 186px;
         line-height: 16px;
     }
