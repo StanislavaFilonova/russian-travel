@@ -1,4 +1,4 @@
-.place__url-heading {
+.place__url {
     margin: auto;
     margin-top: 32px;
     padding-bottom: 12px;
@@ -13,7 +13,7 @@
 }
 
 @media (min-width: 768px) {
-   .place__url-heading {
+   .place__url {
         margin: 0;
         width: auto;
    }
