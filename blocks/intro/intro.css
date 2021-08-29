@@ -6,6 +6,7 @@
 
 @media (min-width: 1280px) {
     .intro {
-        margin-left: 148px;
+        max-width: 984px;
+        margin: 0 auto;
     }
 }

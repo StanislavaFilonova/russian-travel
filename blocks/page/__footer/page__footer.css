@@ -1,7 +1,6 @@
 .page__footer {
-    padding-left: 16px;
-    margin-top: 64px;
-    margin-bottom: 0;
+    margin: 64px auto 0 auto;
+    padding: 0 16px;
 }
 
 @media (min-width:  768px) {
