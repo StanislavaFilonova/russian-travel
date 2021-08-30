@@ -1,29 +1,30 @@
 .page__places {
-    width: 100%;
+    max-width: 320px;
     margin: 0 auto;
+}
+
+@media (min-width: 425px) {
+    .page__places {
+        max-width: 425px;
+    }
 }
 
 @media (min-width: 768px) {
     .page__places {
-        margin-left: 24px;
-        margin-right: 24px;
-        width: auto;
         margin-top: 88px;
+        max-width: 720px;
     }
 }
 
 @media (min-width: 1024px) {
     .page__places {
-        margin-left: 48px;
-        width: auto;
+        max-width: 928px;
         margin-top: 92px;
-        margin-right: 48px;
     }
 }
 
 @media (min-width: 1280px) {
     .page__places {
-        margin-left: 148px;
-        margin-right: 148px;
+        max-width: 984px;
     }
 }

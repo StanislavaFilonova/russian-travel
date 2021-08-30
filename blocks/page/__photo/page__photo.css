@@ -1,18 +1,17 @@
 .page__photo {
     margin: auto;
-    margin-top: 64px;
-    width: 90%;
+    padding-top: 64px;
+    max-width: 1184px;
 }
 
 @media (min-width: 768px) {
     .page__photo {
-        margin: 88px 24px 0;
-        width: auto;
+        padding: 88px 24px 0;
     }
 }
 
 @media (min-width: 1024px) {
     .page__photo {
-        margin: 92px 48px 0;
+        padding: 92px 48px 0;
     }
 }

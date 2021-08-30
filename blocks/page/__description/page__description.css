@@ -5,7 +5,7 @@
 }
 
 @media (min-width: 1280px) {
-    .page-description {
+    .page__description {
         margin-top: 56px;
     }  
 }
